@@ -42,6 +42,7 @@ public class Main {
 			
 			System.out.println("Género al que pertenece: ");
 			genero = read.nextLine();
+			objeto.genero.valueOf(genero);
 			
 			objeto.prestamo();
 			
@@ -56,7 +57,8 @@ public class Main {
 			autor=read.nextLine();
 			
 			System.out.println("Género al que pertenece: ");
-			genero = read.nextLine();
+			genero=read.next();
+			objeto.genero.valueOf(genero);
 			
 			objeto.devolucion();
 			
